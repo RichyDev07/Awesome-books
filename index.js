@@ -32,10 +32,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
             list.innerHTML = `
             
            ${book.title} Written by   ${book.author} 
-            <button id="removebtn"> Remove</button>
-             
-          
-             
+            <button id="removebtn"> Remove</button> 
             `;
             ol.appendChild(list);
             divbooks.appendChild(ol);
